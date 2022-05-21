@@ -1,4 +1,4 @@
-package greet
+package app
 
 import (
   "fmt"
@@ -6,6 +6,6 @@ import (
 
 
 func Hello(name string)string{
-  fmt.Println(name)
+  fmt.Println("Hello %v you are Welcomed!",name)
   return name
 }
