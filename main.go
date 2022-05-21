@@ -30,8 +30,7 @@ func main() {
   for i :=range nums{
     fmt.Println(nums[i]*10/2)
   }
-  
-	// fmt.Println("Hello", arr)
+ 
 }
 
 
